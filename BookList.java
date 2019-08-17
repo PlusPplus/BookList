@@ -1,5 +1,8 @@
 package com.Data;
-
+/**
+ * @author Plus
+ * @date 2019年7月18日
+ */
 public class BookList {
 
 	  private int No;
