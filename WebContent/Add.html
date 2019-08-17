@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>AddBook.html</title>
+</head>
+ <link href="Button.css" type="text/css" rel="stylesheet"/>
+<body >
+<style type="text/css">
+
+
+ a{text-decoration: none;
+ }
+    body{
+    background-image:url("1.jpg")}
+    </style>
+<h1>添加书籍</h1>
+<form action="Get" method="post">
+书籍名称：<input type="Book" name="Book" required placeholder="请输入书名"><br>
+书籍作者：<input type="Author" name="Author"><br>
+阅读时间：<input type="date" name="Date"required ><br>
+书籍类型：<select name="Type">
+		<option value="心理">心理</option><!-- value值用于通过地址值查看选择内容 -->
+		<option value="哲学">哲学</option>
+		<option value="社科">社科</option>
+		<option value="专业技能">人物传记</option>
+		<option value="人物传记">人物传记</option>
+		<option value="人物传记">专业技术与嗜好</option>
+		<option value="散文随笔">散文随笔</option>
+		<option value="国内小说">国内小说</option>
+		<option value="国外小说">国外小说</option>
+		<option value="星标">星标</option>
+	 </select><br>
+阅读笔记：<textarea cols="100" rows="10" name="Note"></textarea><br>
+
+
+
+ <!--  <input type="submit" value="Add"> -->
+
+<div style="width: 60px;float: left;margin-left: 20px"><input class="ant-btn ant-btn-red" type="submit" value="Add"></button></div>
+
+</form>
+
+</body>
+</html>
